@@ -1,0 +1,24 @@
+{
+    "name": "ninjasentry/rei",
+    "description": "NinjaSentry REI framework prototype",
+    "type": "project",
+    "homepage": "https://github.com/ninjasentry/rei",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NinjaSentry",
+            "homepage": "https://ninjasentry.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NinjaSentry\\": "src/"
+        }
+    }
+}
